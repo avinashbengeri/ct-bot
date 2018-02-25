@@ -40,8 +40,8 @@ const videos = {
 }
 
 const getYoutubeVideoMetadata = (videoId) => {
-  const YOUTUBE_API_KEY = 'AIzaSyCSQYRZ0R6X2BWtGK96Sm_FbYaId2oDUuo'
-  const apiUrl = `https://content.googleapis.com/youtube/v3/videos?id=${videoId}&part=snippet&key=${'AIzaSyCSQYRZ0R6X2BWtGK96Sm_FbYaId2oDUuo'}`
+  const YOUTUBE_API_KEY = '################################################'
+  const apiUrl = `https://content.googleapis.com/youtube/v3/videos?id=${videoId}&part=snippet&key=${'############################################'}`
 
   return axios.get(apiUrl)
   .then(res => {
